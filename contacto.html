@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Savera | Contacto</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">SAVERA</div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="page-header">
+
+            <p class="small-title">SAVERA EVENTS</p>
+
+            <h1>Contáctanos</h1>
+
+            <p>
+                Cuéntanos sobre tu evento y nos pondremos en contacto
+                contigo para ayudarte a hacerlo realidad.
+            </p>
+
+        </section>
+
+        <section class="contact-section">
+
+            <div class="contact-info">
+
+                <h2>Hablemos de tu evento</h2>
+
+                <p>
+                    Estamos listos para escuchar tus ideas y ayudarte
+                    a planear una celebración especial.
+                </p>
+
+                <div class="contact-item">
+                    <strong>Correo electrónico</strong>
+                    <p>hola@saveraevents.com</p>
+                </div>
+
+                <div class="contact-item">
+                    <strong>Teléfono</strong>
+                    <p>55 1234 5678</p>
+                </div>
+
+                <div class="contact-item">
+                    <strong>Horario de atención</strong>
+                    <p>Lunes a viernes de 9:00 a 18:00 h</p>
+                </div>
+
+            </div>
+
+            <form id="contact-form" class="contact-form">
+
+                <label for="nombre">Nombre</label>
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Escribe tu nombre"
+                    required
+                >
+
+                <label for="correo">Correo electrónico</label>
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="ejemplo@correo.com"
+                    required
+                >
+
+                <label for="evento">Tipo de evento</label>
+                <select id="evento" name="evento" required>
+
+                    <option value="">
+                        Selecciona una opción
+                    </option>
+
+                    <option value="boda">
+                        Boda
+                    </option>
+
+                    <option value="cumpleanos">
+                        Cumpleaños
+                    </option>
+
+                    <option value="graduacion">
+                        Graduación
+                    </option>
+
+                    <option value="evento-social">
+                        Evento social
+                    </option>
+
+                    <option value="otro">
+                        Otro
+                    </option>
+
+                </select>
+
+                <label for="mensaje">Cuéntanos sobre tu evento</label>
+
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    placeholder="Escribe aquí los detalles de tu evento..."
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn">
+                    Enviar mensaje
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Savera Events. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="contacto.js"></script>
+
+</body>
+</html>
